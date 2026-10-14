@@ -232,6 +232,14 @@ I used AI tools to help me understand technical concepts, troubleshoot errors, i
 
 I reviewed the suggestions and used them to support my learning and progress with the project. This process helped me develop my understanding of Python, data analysis, machine learning and application deployment.
 
+## Ethical Consideration
+**Patient Data Privacy & Anonymization:** The dataset (cleaned_diabetic_data.csv) consists entirely of de-identified clinical encounter records. No personally identifiable information (PII)—such as patient names, contact details, or exact social security numbers—was accessed or stored, ensuring strict adherence to healthcare privacy standards (e.g., HIPAA principles) and data protection guidelines.
+
+**Fairness & Bias Awareness:** Clinical machine learning models can inadvertently inherit biases present in historical medical data. Demographic variables (such as race, gender, and age brackets) were evaluated during exploratory analysis to monitor performance disparities and ensure prediction outputs did not create unfair treatment recommendations for protected patient cohorts.
+
+**Clinical Decision Support vs. Automation:** The predictive model and Streamlit application were built explicitly as a decision-support tool for healthcare providers, not an automated diagnostic system. The final dashboard reinforces that machine learning risk scores are designed to assist clinical judgment and care coordination teams, ensuring a human clinician remains in the loop for all final discharge decisions.
+
+**AI Transparency & Reproducibility:** To maintain complete academic and professional integrity, all generative AI usage (Gemini) was documented transparently. Furthermore, model parameters, scaling pipelines, and preprocessing scripts were version-controlled and made fully reproducible to ensure auditability and trust in the analytical results.
 ##  Author
 
 **Nadjat Djagana**
