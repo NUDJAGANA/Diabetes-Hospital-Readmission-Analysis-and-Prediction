@@ -6,7 +6,7 @@ import streamlit as st
 
 # 1. Page Configuration
 st.set_page_config(
-    page_title="Healthcare Capstone Command Center", page_icon="🏥", layout="wide"
+    page_title="Diabetes Hospital Readmission Analysis", page_icon="🏥", layout="wide"
 )
 
 # Custom CSS for Dark Slate Containers
@@ -56,7 +56,7 @@ if df is None:
   st.stop()
 
 # Title
-st.title("🏥 Clinical Intelligence Command Center")
+st.title("🏥 Diabetes Hospital Readmission Analysis")
 st.markdown(
     "### Readmission Risk Analytics, Population Insights & ML Prediction"
 )
