@@ -144,6 +144,8 @@ The main tools and technologies I used for this project include:
 - **GitHub** – for version control and project documentation.
 - **VS Code** – for writing, editing and managing project files.
 
+I used a Github Project Board(https://github.com/users/NUDJAGANA/projects/9/views/3) to plan, structure, and track my progress throughout the development of this project.
+
 ## Project Structure
 
 My project is organised into the following main files and folders:
